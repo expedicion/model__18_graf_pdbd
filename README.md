@@ -1,2 +1,2 @@
-# model__18_zw_trynarny_2_pdbd
-Lec | Związek trynarny - dodatkowa kombinacja kluczy
+# model__18_graf_pdbd
+Lec | Graf (materiał - składnik)
