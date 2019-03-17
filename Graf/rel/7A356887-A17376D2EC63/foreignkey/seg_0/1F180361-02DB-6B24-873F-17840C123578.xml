@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1F180361-02DB-6B24-873F-17840C123578" containerWithKeyObject="F42283E2-18D4-A58C-BA06-5E4091DD3254" localFKIndex="EBC09A46-9733-0F09-AC60-F502FED82E0B" name="SKLADNIK_MATERIAL_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:43:43 UTC</createdTime>
+<generatorID>258C664C-3184-80DF-6266-7DE87CC034C0</generatorID>
+<ownerDesignName>Graf</ownerDesignName>
+<referredTableLongName>MATERIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>67CBD431-2B21-EF1E-73C4-CBCF67593397</referredTableID>
+<keyObject>4AD8A1B5-A4C7-AB8F-6CDC-F1A1E60CA714</keyObject>
+<referredKeyID>4AD8A1B5-A4C7-AB8F-6CDC-F1A1E60CA714</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>KTM</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

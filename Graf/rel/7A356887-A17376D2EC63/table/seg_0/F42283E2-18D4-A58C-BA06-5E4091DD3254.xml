@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F42283E2-18D4-A58C-BA06-5E4091DD3254" name="SKLADNIK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:43:43 UTC</createdTime>
+<generatorID>8A51B813-79CC-5304-7482-5EC231EFA57E</generatorID>
+<ownerDesignName>Graf</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ILOSC" id="1C641237-A295-B50D-2B24-4F97ED8CB94C">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:43:43 UTC</createdTime>
+<generatorID>A1799A00-FFBB-CEE9-52B5-6A61CA664459</generatorID>
+<ownerDesignName>Graf</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KTM" id="89F99811-DF75-21C2-024A-34A68991BE5B">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:43:43 UTC</createdTime>
+<generatorID>0DDEBB23-6C1D-6D40-3278-6392C9D426FF</generatorID>
+<ownerDesignName>Graf</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F180361-02DB-6B24-873F-17840C123578" referredColumn="2D2DF1CC-7DB6-22E2-B1B1-79967D6CD791"/>
+</associations>
+</Column>
+<Column name="KTM1" id="900C2BD3-6761-2664-CD24-3E22193AAE5D">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:43:43 UTC</createdTime>
+<generatorID>7652D673-F131-6049-E3B2-51357C55C5AF</generatorID>
+<ownerDesignName>Graf</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17A9418B-A4F6-62D4-8171-C03DBF38C554" referredColumn="2D2DF1CC-7DB6-22E2-B1B1-79967D6CD791"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7ED1D926-5BBA-D6F2-AF82-6C64C3BDD025" name="SKLADNIK_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:43:43 UTC</createdTime>
+<generatorID>2C6C59CF-EF40-3BA2-D987-378EEBDFE320</generatorID>
+<ownerDesignName>Graf</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="900C2BD3-6761-2664-CD24-3E22193AAE5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBC09A46-9733-0F09-AC60-F502FED82E0B" name="SKLADNIK_MATERIAL_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:43:43 UTC</createdTime>
+<generatorID>258C664C-3184-80DF-6266-7DE87CC034C0</generatorID>
+<ownerDesignName>Graf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89F99811-DF75-21C2-024A-34A68991BE5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FF7508C-1372-9E51-A433-773914B8E100" name="SKLADNIK_MATERIAL_FKv2">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:43:43 UTC</createdTime>
+<generatorID>B9DBD8AA-4E25-95C1-5195-D827A5C861CA</generatorID>
+<ownerDesignName>Graf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="900C2BD3-6761-2664-CD24-3E22193AAE5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

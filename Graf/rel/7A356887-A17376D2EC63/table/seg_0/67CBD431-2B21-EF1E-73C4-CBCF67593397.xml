@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67CBD431-2B21-EF1E-73C4-CBCF67593397" name="MATERIAL">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:43:43 UTC</createdTime>
+<generatorID>8A81F3B9-32CE-2D81-C6BC-DFBAA03B966C</generatorID>
+<ownerDesignName>Graf</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KTM" id="2D2DF1CC-7DB6-22E2-B1B1-79967D6CD791">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:43:43 UTC</createdTime>
+<generatorID>F84E9EB9-49B8-F638-4D63-83143BBCF7DA</generatorID>
+<ownerDesignName>Graf</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="365EA180-D282-09AB-700E-BFD701CE95CE">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:43:43 UTC</createdTime>
+<generatorID>EEBC9CB3-8276-71FB-9F0B-C2E2915674B3</generatorID>
+<ownerDesignName>Graf</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AD8A1B5-A4C7-AB8F-6CDC-F1A1E60CA714" name="MATERIAL_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:43:43 UTC</createdTime>
+<generatorID>E9EDD2B8-342D-C271-B2CC-ECF372179CD7</generatorID>
+<ownerDesignName>Graf</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D2DF1CC-7DB6-22E2-B1B1-79967D6CD791"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

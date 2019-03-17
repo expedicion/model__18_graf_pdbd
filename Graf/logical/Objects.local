@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="8A51B813-79CC-5304-7482-5EC231EFA57E" name="SKLADNIK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="058F48A7-A480-4112-0433-7361495DF874" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8A81F3B9-32CE-2D81-C6BC-DFBAA03B966C" name="MATERIAL" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="058F48A7-A480-4112-0433-7361495DF874" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="258C664C-3184-80DF-6266-7DE87CC034C0" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="058F48A7-A480-4112-0433-7361495DF874" propertySourceId="8A81F3B9-32CE-2D81-C6BC-DFBAA03B966C" propertyTargetId="8A51B813-79CC-5304-7482-5EC231EFA57E"/>
+   <object objectType="Relation" objectID="B9DBD8AA-4E25-95C1-5195-D827A5C861CA" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="058F48A7-A480-4112-0433-7361495DF874" propertySourceId="8A81F3B9-32CE-2D81-C6BC-DFBAA03B966C" propertyTargetId="8A51B813-79CC-5304-7482-5EC231EFA57E"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
